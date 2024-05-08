@@ -1,0 +1,2 @@
+/usr/bin/ar Dqc ../../../libLLVMRISCVTargetMCA.a CMakeFiles/LLVMRISCVTargetMCA.dir/RISCVCustomBehaviour.cpp.o
+/usr/bin/ranlib -D ../../../libLLVMRISCVTargetMCA.a

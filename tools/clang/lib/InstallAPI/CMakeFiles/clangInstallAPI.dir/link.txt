@@ -1,0 +1,2 @@
+/usr/bin/ar Dqc ../../../../lib/libclangInstallAPI.a CMakeFiles/obj.clangInstallAPI.dir/DiagnosticBuilderWrappers.cpp.o CMakeFiles/obj.clangInstallAPI.dir/DylibVerifier.cpp.o CMakeFiles/obj.clangInstallAPI.dir/FileList.cpp.o CMakeFiles/obj.clangInstallAPI.dir/Frontend.cpp.o CMakeFiles/obj.clangInstallAPI.dir/HeaderFile.cpp.o CMakeFiles/obj.clangInstallAPI.dir/Visitor.cpp.o
+/usr/bin/ranlib -D ../../../../lib/libclangInstallAPI.a

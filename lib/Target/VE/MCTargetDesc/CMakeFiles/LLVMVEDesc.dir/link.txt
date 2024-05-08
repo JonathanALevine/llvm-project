@@ -1,0 +1,2 @@
+/usr/bin/ar Dqc ../../../libLLVMVEDesc.a CMakeFiles/LLVMVEDesc.dir/VEAsmBackend.cpp.o CMakeFiles/LLVMVEDesc.dir/VEELFObjectWriter.cpp.o CMakeFiles/LLVMVEDesc.dir/VEInstPrinter.cpp.o CMakeFiles/LLVMVEDesc.dir/VEMCAsmInfo.cpp.o CMakeFiles/LLVMVEDesc.dir/VEMCCodeEmitter.cpp.o CMakeFiles/LLVMVEDesc.dir/VEMCExpr.cpp.o CMakeFiles/LLVMVEDesc.dir/VEMCTargetDesc.cpp.o CMakeFiles/LLVMVEDesc.dir/VETargetStreamer.cpp.o
+/usr/bin/ranlib -D ../../../libLLVMVEDesc.a

@@ -1,0 +1,2 @@
+/usr/bin/ar Dqc ../../../libLLVMLoongArchDisassembler.a CMakeFiles/LLVMLoongArchDisassembler.dir/LoongArchDisassembler.cpp.o
+/usr/bin/ranlib -D ../../../libLLVMLoongArchDisassembler.a

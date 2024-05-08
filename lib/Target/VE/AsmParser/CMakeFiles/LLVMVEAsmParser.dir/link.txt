@@ -1,0 +1,2 @@
+/usr/bin/ar Dqc ../../../libLLVMVEAsmParser.a CMakeFiles/LLVMVEAsmParser.dir/VEAsmParser.cpp.o
+/usr/bin/ranlib -D ../../../libLLVMVEAsmParser.a

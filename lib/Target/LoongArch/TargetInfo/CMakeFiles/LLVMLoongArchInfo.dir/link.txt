@@ -1,0 +1,2 @@
+/usr/bin/ar Dqc ../../../libLLVMLoongArchInfo.a CMakeFiles/LLVMLoongArchInfo.dir/LoongArchTargetInfo.cpp.o
+/usr/bin/ranlib -D ../../../libLLVMLoongArchInfo.a

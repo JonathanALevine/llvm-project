@@ -1,0 +1,2 @@
+/usr/bin/ar Dqc ../../../libLLVMWebAssemblyAsmParser.a CMakeFiles/LLVMWebAssemblyAsmParser.dir/WebAssemblyAsmParser.cpp.o CMakeFiles/LLVMWebAssemblyAsmParser.dir/WebAssemblyAsmTypeCheck.cpp.o
+/usr/bin/ranlib -D ../../../libLLVMWebAssemblyAsmParser.a

@@ -1,0 +1,2 @@
+/usr/bin/ar Dqc ../../../libLLVMLoongArchAsmParser.a CMakeFiles/LLVMLoongArchAsmParser.dir/LoongArchAsmParser.cpp.o
+/usr/bin/ranlib -D ../../../libLLVMLoongArchAsmParser.a

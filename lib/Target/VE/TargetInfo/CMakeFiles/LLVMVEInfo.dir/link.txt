@@ -1,0 +1,2 @@
+/usr/bin/ar Dqc ../../../libLLVMVEInfo.a CMakeFiles/LLVMVEInfo.dir/VETargetInfo.cpp.o
+/usr/bin/ranlib -D ../../../libLLVMVEInfo.a

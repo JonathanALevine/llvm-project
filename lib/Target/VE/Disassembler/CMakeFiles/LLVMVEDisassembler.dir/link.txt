@@ -1,0 +1,2 @@
+/usr/bin/ar Dqc ../../../libLLVMVEDisassembler.a CMakeFiles/LLVMVEDisassembler.dir/VEDisassembler.cpp.o
+/usr/bin/ranlib -D ../../../libLLVMVEDisassembler.a

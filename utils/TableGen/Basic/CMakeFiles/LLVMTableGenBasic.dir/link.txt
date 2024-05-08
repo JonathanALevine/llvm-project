@@ -1,0 +1,2 @@
+/usr/bin/ar Dqc ../../../lib/libLLVMTableGenBasic.a CMakeFiles/obj.LLVMTableGenBasic.dir/CodeGenIntrinsics.cpp.o CMakeFiles/obj.LLVMTableGenBasic.dir/SDNodeProperties.cpp.o
+/usr/bin/ranlib -D ../../../lib/libLLVMTableGenBasic.a

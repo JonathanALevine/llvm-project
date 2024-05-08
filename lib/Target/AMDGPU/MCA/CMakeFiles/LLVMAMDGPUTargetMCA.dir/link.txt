@@ -1,0 +1,2 @@
+/usr/bin/ar Dqc ../../../libLLVMAMDGPUTargetMCA.a CMakeFiles/LLVMAMDGPUTargetMCA.dir/AMDGPUCustomBehaviour.cpp.o
+/usr/bin/ranlib -D ../../../libLLVMAMDGPUTargetMCA.a

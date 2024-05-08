@@ -1,0 +1,2359 @@
+The system is: Linux - 5.15.0-105-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/jonathan/dev/llvm-project/CMakeFiles/3.23.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/jonathan/dev/llvm-project/CMakeFiles/3.23.2/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+cc (Ubuntu 9.4.0-1ubuntu1~20.04.2) 9.4.0
+Copyright (C) 2019 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_30d77/fast && /usr/bin/make  -f CMakeFiles/cmTC_30d77.dir/build.make CMakeFiles/cmTC_30d77.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o -c /opt/cmake/share/cmake-3.23/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /opt/cmake/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccmErnQI.s
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o /tmp/ccmErnQI.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_30d77
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30d77.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o -o cmTC_30d77 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_30d77' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccllhwqa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_30d77 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_30d77' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_30d77/fast && /usr/bin/make  -f CMakeFiles/cmTC_30d77.dir/build.make CMakeFiles/cmTC_30d77.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o -c /opt/cmake/share/cmake-3.23/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1 -quiet -v -imultiarch x86_64-linux-gnu /opt/cmake/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccmErnQI.s]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 01da938ff5dc2163489aa33cb3b747a7]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o /tmp/ccmErnQI.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_30d77]
+  ignore line: [/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30d77.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o -o cmTC_30d77 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_30d77' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccllhwqa.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_30d77 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccllhwqa.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_30d77] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_30d77.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d1c17/fast && /usr/bin/make  -f CMakeFiles/cmTC_d1c17.dir/build.make CMakeFiles/cmTC_d1c17.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o -c /opt/cmake/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /opt/cmake/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccZLu4IK.s
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/9
+ /usr/include/x86_64-linux-gnu/c++/9
+ /usr/include/c++/9/backward
+ /usr/lib/gcc/x86_64-linux-gnu/9/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3d1eba838554fa2348dba760e4770469
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccZLu4IK.s
+GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_d1c17
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1c17.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d1c17 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d1c17' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsbLZBb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d1c17 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d1c17' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/9]
+    add: [/usr/include/x86_64-linux-gnu/c++/9]
+    add: [/usr/include/c++/9/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/9] ==> [/usr/include/c++/9]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/9] ==> [/usr/include/x86_64-linux-gnu/c++/9]
+  collapse include dir [/usr/include/c++/9/backward] ==> [/usr/include/c++/9/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/9/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/9/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/9;/usr/include/x86_64-linux-gnu/c++/9;/usr/include/c++/9/backward;/usr/lib/gcc/x86_64-linux-gnu/9/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make -f Makefile cmTC_d1c17/fast && /usr/bin/make  -f CMakeFiles/cmTC_d1c17.dir/build.make CMakeFiles/cmTC_d1c17.dir/build]
+  ignore line: [make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o -c /opt/cmake/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /opt/cmake/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccZLu4IK.s]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/9"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/9]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/9]
+  ignore line: [ /usr/include/c++/9/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/9/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 9.4.0-1ubuntu1~20.04.2) version 9.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3d1eba838554fa2348dba760e4770469]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccZLu4IK.s]
+  ignore line: [GNU assembler version 2.34 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.34]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_d1c17]
+  ignore line: [/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1c17.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d1c17 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 9.4.0-1ubuntu1~20.04.2' --with-bugurl=file:///usr/share/doc/gcc-9/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ gm2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-9 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-9-9QDOt0/gcc-9-9.4.0/debian/tmp-nvptx/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (Ubuntu 9.4.0-1ubuntu1~20.04.2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d1c17' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccsbLZBb.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d1c17 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/9 -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/9/../../.. CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccsbLZBb.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d1c17] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..]
+    arg [CMakeFiles/cmTC_d1c17.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9] ==> [/usr/lib/gcc/x86_64-linux-gnu/9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ea8c2/fast && /usr/bin/make  -f CMakeFiles/cmTC_ea8c2.dir/build.make CMakeFiles/cmTC_ea8c2.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea8c2.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_ea8c2.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ea8c2
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea8c2.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_ea8c2.dir/CheckIncludeFile.c.o -o cmTC_ea8c2  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f332a/fast && /usr/bin/make  -f CMakeFiles/cmTC_f332a.dir/build.make CMakeFiles/cmTC_f332a.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f332a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_f332a.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f332a
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f332a.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_f332a.dir/CheckIncludeFile.c.o -o cmTC_f332a  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e2a7e/fast && /usr/bin/make  -f CMakeFiles/cmTC_e2a7e.dir/build.make CMakeFiles/cmTC_e2a7e.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2a7e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_e2a7e.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e2a7e
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2a7e.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_e2a7e.dir/CheckIncludeFile.c.o -o cmTC_e2a7e  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file link.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2cd1a/fast && /usr/bin/make  -f CMakeFiles/cmTC_2cd1a.dir/build.make CMakeFiles/cmTC_2cd1a.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2cd1a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_2cd1a.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2cd1a
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cd1a.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_2cd1a.dir/CheckIncludeFile.c.o -o cmTC_2cd1a  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d0dd6/fast && /usr/bin/make  -f CMakeFiles/cmTC_d0dd6.dir/build.make CMakeFiles/cmTC_d0dd6.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0dd6.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_d0dd6.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d0dd6
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0dd6.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_d0dd6.dir/CheckIncludeFile.c.o -o cmTC_d0dd6  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d4f9e/fast && /usr/bin/make  -f CMakeFiles/cmTC_d4f9e.dir/build.make CMakeFiles/cmTC_d4f9e.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4f9e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_d4f9e.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d4f9e
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4f9e.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_d4f9e.dir/CheckIncludeFile.c.o -o cmTC_d4f9e  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b850e/fast && /usr/bin/make  -f CMakeFiles/cmTC_b850e.dir/build.make CMakeFiles/cmTC_b850e.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b850e.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_b850e.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b850e
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b850e.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_b850e.dir/CheckIncludeFile.c.o -o cmTC_b850e  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_37a94/fast && /usr/bin/make  -f CMakeFiles/cmTC_37a94.dir/build.make CMakeFiles/cmTC_37a94.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_37a94.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_37a94.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_37a94
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37a94.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_37a94.dir/CheckIncludeFile.c.o -o cmTC_37a94  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_164b4/fast && /usr/bin/make  -f CMakeFiles/cmTC_164b4.dir/build.make CMakeFiles/cmTC_164b4.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_164b4.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_164b4.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_164b4
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_164b4.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_164b4.dir/CheckIncludeFile.c.o -o cmTC_164b4  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ac980/fast && /usr/bin/make  -f CMakeFiles/cmTC_ac980.dir/build.make CMakeFiles/cmTC_ac980.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ac980.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_ac980.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ac980
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac980.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_ac980.dir/CheckIncludeFile.c.o -o cmTC_ac980  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_72910/fast && /usr/bin/make  -f CMakeFiles/cmTC_72910.dir/build.make CMakeFiles/cmTC_72910.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72910.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_72910.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_72910
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72910.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_72910.dir/CheckIncludeFile.c.o -o cmTC_72910  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e184c/fast && /usr/bin/make  -f CMakeFiles/cmTC_e184c.dir/build.make CMakeFiles/cmTC_e184c.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e184c.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_e184c.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e184c
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e184c.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_e184c.dir/CheckIncludeFile.c.o -o cmTC_e184c  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_44611/fast && /usr/bin/make  -f CMakeFiles/cmTC_44611.dir/build.make CMakeFiles/cmTC_44611.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44611.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_44611.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_44611
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44611.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_44611.dir/CheckIncludeFile.c.o -o cmTC_44611  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sysexits.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_dd78b/fast && /usr/bin/make  -f CMakeFiles/cmTC_dd78b.dir/build.make CMakeFiles/cmTC_dd78b.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd78b.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_dd78b.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_dd78b
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd78b.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_dd78b.dir/CheckIncludeFile.c.o -o cmTC_dd78b  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a5267/fast && /usr/bin/make  -f CMakeFiles/cmTC_a5267.dir/build.make CMakeFiles/cmTC_a5267.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5267.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_a5267.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a5267
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5267.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_a5267.dir/CheckIncludeFile.c.o -o cmTC_a5267  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a3ae7/fast && /usr/bin/make  -f CMakeFiles/cmTC_a3ae7.dir/build.make CMakeFiles/cmTC_a3ae7.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3ae7.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_a3ae7.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a3ae7
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3ae7.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_a3ae7.dir/CheckIncludeFile.c.o -o cmTC_a3ae7  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0b767/fast && /usr/bin/make  -f CMakeFiles/cmTC_0b767.dir/build.make CMakeFiles/cmTC_0b767.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b767.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_0b767.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0b767
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b767.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_0b767.dir/CheckIncludeFile.c.o -o cmTC_0b767  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f67d0/fast && /usr/bin/make  -f CMakeFiles/cmTC_f67d0.dir/build.make CMakeFiles/cmTC_f67d0.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f67d0.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_f67d0.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f67d0
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f67d0.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_f67d0.dir/CheckSymbolExists.c.o -o cmTC_f67d0  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_db1b0/fast && /usr/bin/make  -f CMakeFiles/cmTC_db1b0.dir/build.make CMakeFiles/cmTC_db1b0.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db1b0.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_db1b0.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_db1b0
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db1b0.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_db1b0.dir/CheckSymbolExists.c.o -o cmTC_db1b0  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file linux/magic.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_eb47a/fast && /usr/bin/make  -f CMakeFiles/cmTC_eb47a.dir/build.make CMakeFiles/cmTC_eb47a.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eb47a.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_eb47a.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_eb47a
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb47a.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_eb47a.dir/CheckIncludeFile.c.o -o cmTC_eb47a  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_151b4/fast && /usr/bin/make  -f CMakeFiles/cmTC_151b4.dir/build.make CMakeFiles/cmTC_151b4.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_151b4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -O3 -DNDEBUG -o CMakeFiles/cmTC_151b4.dir/CheckFunctionExists.c.o -c /opt/cmake/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_151b4
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_151b4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -O3 -DNDEBUG CMakeFiles/cmTC_151b4.dir/CheckFunctionExists.c.o -o cmTC_151b4  -lpthread -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d7256/fast && /usr/bin/make  -f CMakeFiles/cmTC_d7256.dir/build.make CMakeFiles/cmTC_d7256.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d7256.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init -O3 -DNDEBUG -o CMakeFiles/cmTC_d7256.dir/CheckFunctionExists.c.o -c /opt/cmake/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d7256
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7256.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init -O3 -DNDEBUG CMakeFiles/cmTC_d7256.dir/CheckFunctionExists.c.o -o cmTC_d7256  -lpthread -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c039d/fast && /usr/bin/make  -f CMakeFiles/cmTC_c039d.dir/build.make CMakeFiles/cmTC_c039d.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c039d.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock -O3 -DNDEBUG -o CMakeFiles/cmTC_c039d.dir/CheckFunctionExists.c.o -c /opt/cmake/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c039d
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c039d.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock -O3 -DNDEBUG CMakeFiles/cmTC_c039d.dir/CheckFunctionExists.c.o -o cmTC_c039d  -lpthread -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_63062/fast && /usr/bin/make  -f CMakeFiles/cmTC_63062.dir/build.make CMakeFiles/cmTC_63062.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63062.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen -O3 -DNDEBUG -o CMakeFiles/cmTC_63062.dir/CheckFunctionExists.c.o -c /opt/cmake/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_63062
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_63062.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlopen -O3 -DNDEBUG CMakeFiles/cmTC_63062.dir/CheckFunctionExists.c.o -o cmTC_63062  -ldl -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_85473/fast && /usr/bin/make  -f CMakeFiles/cmTC_85473.dir/build.make CMakeFiles/cmTC_85473.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_85473.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -O3 -DNDEBUG -o CMakeFiles/cmTC_85473.dir/CheckFunctionExists.c.o -c /opt/cmake/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_85473
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85473.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime -O3 -DNDEBUG CMakeFiles/cmTC_85473.dir/CheckFunctionExists.c.o -o cmTC_85473  -lrt -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_720e1/fast && /usr/bin/make  -f CMakeFiles/cmTC_720e1.dir/build.make CMakeFiles/cmTC_720e1.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_720e1.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_720e1.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_720e1
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_720e1.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_720e1.dir/CheckIncludeFile.c.o -o cmTC_720e1  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_aef02/fast && /usr/bin/make  -f CMakeFiles/cmTC_aef02.dir/build.make CMakeFiles/cmTC_aef02.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aef02.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -O3 -DNDEBUG -o CMakeFiles/cmTC_aef02.dir/CheckFunctionExists.c.o -c /opt/cmake/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_aef02
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aef02.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create -O3 -DNDEBUG CMakeFiles/cmTC_aef02.dir/CheckFunctionExists.c.o -o cmTC_aef02  -lpthread -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the compress2 exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_221b2/fast && /usr/bin/make  -f CMakeFiles/cmTC_221b2.dir/build.make CMakeFiles/cmTC_221b2.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_221b2.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_221b2.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_221b2
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_221b2.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_221b2.dir/CheckSymbolExists.c.o -o cmTC_221b2  -lm /usr/lib/x86_64-linux-gnu/libz.so 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <zlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef compress2
+  return ((int*)(&compress2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test Terminfo_LINKABLE succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5c562/fast && /usr/bin/make  -f CMakeFiles/cmTC_5c562.dir/build.make CMakeFiles/cmTC_5c562.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c562.dir/src.c.o
+/usr/bin/cc -DTerminfo_LINKABLE  -O3 -DNDEBUG -o CMakeFiles/cmTC_5c562.dir/src.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5c562
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c562.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_5c562.dir/src.c.o -o cmTC_5c562  -lm /usr/lib/x86_64-linux-gnu/libtinfo.so 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+    #ifdef __cplusplus
+    extern "C" {
+    #endif
+    int setupterm(char *term, int filedes, int *errret);
+    #ifdef __cplusplus
+    }
+    #endif
+    int main(void) { return setupterm(0, 0, 0); }
+    
+Determining if the backtrace exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_83363/fast && /usr/bin/make  -f CMakeFiles/cmTC_83363.dir/build.make CMakeFiles/cmTC_83363.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_83363.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_83363.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_83363
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_83363.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_83363.dir/CheckSymbolExists.c.o -o cmTC_83363 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __register_frame exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d07dc/fast && /usr/bin/make  -f CMakeFiles/cmTC_d07dc.dir/build.make CMakeFiles/cmTC_d07dc.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d07dc.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_d07dc.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d07dc
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d07dc.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_d07dc.dir/CheckSymbolExists.c.o -o cmTC_d07dc  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </home/jonathan/dev/llvm-project/llvm/cmake/unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __register_frame
+  return ((int*)(&__register_frame))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __deregister_frame exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5a336/fast && /usr/bin/make  -f CMakeFiles/cmTC_5a336.dir/build.make CMakeFiles/cmTC_5a336.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a336.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_5a336.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_5a336
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a336.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_5a336.dir/CheckSymbolExists.c.o -o cmTC_5a336  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include </home/jonathan/dev/llvm-project/llvm/cmake/unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __deregister_frame
+  return ((int*)(&__deregister_frame))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a6da6/fast && /usr/bin/make  -f CMakeFiles/cmTC_a6da6.dir/build.make CMakeFiles/cmTC_a6da6.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a6da6.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_a6da6.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a6da6
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6da6.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_a6da6.dir/CheckSymbolExists.c.o -o cmTC_a6da6  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1a56c/fast && /usr/bin/make  -f CMakeFiles/cmTC_1a56c.dir/build.make CMakeFiles/cmTC_1a56c.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a56c.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_1a56c.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1a56c
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1a56c.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_1a56c.dir/CheckSymbolExists.c.o -o cmTC_1a56c  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e96c9/fast && /usr/bin/make  -f CMakeFiles/cmTC_e96c9.dir/build.make CMakeFiles/cmTC_e96c9.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e96c9.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_e96c9.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e96c9
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e96c9.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_e96c9.dir/CheckSymbolExists.c.o -o cmTC_e96c9  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrusage exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9cbf7/fast && /usr/bin/make  -f CMakeFiles/cmTC_9cbf7.dir/build.make CMakeFiles/cmTC_9cbf7.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9cbf7.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_9cbf7.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9cbf7
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cbf7.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_9cbf7.dir/CheckSymbolExists.c.o -o cmTC_9cbf7  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0914e/fast && /usr/bin/make  -f CMakeFiles/cmTC_0914e.dir/build.make CMakeFiles/cmTC_0914e.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0914e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_0914e.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0914e
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0914e.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_0914e.dir/CheckSymbolExists.c.o -o cmTC_0914e  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isatty exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_33f81/fast && /usr/bin/make  -f CMakeFiles/cmTC_33f81.dir/build.make CMakeFiles/cmTC_33f81.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33f81.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_33f81.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_33f81
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33f81.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_33f81.dir/CheckSymbolExists.c.o -o cmTC_33f81  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimens exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0b990/fast && /usr/bin/make  -f CMakeFiles/cmTC_0b990.dir/build.make CMakeFiles/cmTC_0b990.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b990.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_0b990.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0b990
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b990.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_0b990.dir/CheckSymbolExists.c.o -o cmTC_0b990  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimes exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6bb4c/fast && /usr/bin/make  -f CMakeFiles/cmTC_6bb4c.dir/build.make CMakeFiles/cmTC_6bb4c.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6bb4c.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_6bb4c.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6bb4c
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bb4c.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_6bb4c.dir/CheckSymbolExists.c.o -o cmTC_6bb4c  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaltstack exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_8a8f5/fast && /usr/bin/make  -f CMakeFiles/cmTC_8a8f5.dir/build.make CMakeFiles/cmTC_8a8f5.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a8f5.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_8a8f5.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8a8f5
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a8f5.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_8a8f5.dir/CheckSymbolExists.c.o -o cmTC_8a8f5  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaltstack
+  return ((int*)(&sigaltstack))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallinfo exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_72296/fast && /usr/bin/make  -f CMakeFiles/cmTC_72296.dir/build.make CMakeFiles/cmTC_72296.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72296.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_72296.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_72296
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72296.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_72296.dir/CheckSymbolExists.c.o -o cmTC_72296  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_27548/fast && /usr/bin/make  -f CMakeFiles/cmTC_27548.dir/build.make CMakeFiles/cmTC_27548.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27548.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_27548.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_27548
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27548.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_27548.dir/CheckSymbolExists.c.o -o cmTC_27548  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a35e6/fast && /usr/bin/make  -f CMakeFiles/cmTC_a35e6.dir/build.make CMakeFiles/cmTC_a35e6.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a35e6.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_a35e6.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a35e6
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a35e6.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_a35e6.dir/CheckSymbolExists.c.o -o cmTC_a35e6  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pread exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_29b8f/fast && /usr/bin/make  -f CMakeFiles/cmTC_29b8f.dir/build.make CMakeFiles/cmTC_29b8f.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_29b8f.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_29b8f.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_29b8f
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_29b8f.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_29b8f.dir/CheckSymbolExists.c.o -o cmTC_29b8f  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sbrk exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_02b9f/fast && /usr/bin/make  -f CMakeFiles/cmTC_02b9f.dir/build.make CMakeFiles/cmTC_02b9f.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02b9f.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_02b9f.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_02b9f
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02b9f.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_02b9f.dir/CheckSymbolExists.c.o -o cmTC_02b9f  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_44a5d/fast && /usr/bin/make  -f CMakeFiles/cmTC_44a5d.dir/build.make CMakeFiles/cmTC_44a5d.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44a5d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_44a5d.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_44a5d
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_44a5d.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_44a5d.dir/CheckSymbolExists.c.o -o cmTC_44a5d  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6c615/fast && /usr/bin/make  -f CMakeFiles/cmTC_6c615.dir/build.make CMakeFiles/cmTC_6c615.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c615.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_6c615.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_6c615
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c615.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_6c615.dir/CheckSymbolExists.c.o -o cmTC_6c615  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7f2a3/fast && /usr/bin/make  -f CMakeFiles/cmTC_7f2a3.dir/build.make CMakeFiles/cmTC_7f2a3.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7f2a3.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_STAT_ST_MTIM_TV_NSEC  -O3 -DNDEBUG -o CMakeFiles/cmTC_7f2a3.dir/src.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_7f2a3
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f2a3.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_7f2a3.dir/src.c.o -o cmTC_7f2a3  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtim.tv_nsec);
+  return 0;
+}
+
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_190c0/fast && /usr/bin/make  -f CMakeFiles/cmTC_190c0.dir/build.make CMakeFiles/cmTC_190c0.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_190c0.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -O3 -DNDEBUG -o CMakeFiles/cmTC_190c0.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_190c0
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_190c0.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_190c0.dir/CheckSymbolExists.c.o -o cmTC_190c0  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_getname_np exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_99f7b/fast && /usr/bin/make  -f CMakeFiles/cmTC_99f7b.dir/build.make CMakeFiles/cmTC_99f7b.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_99f7b.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -O3 -DNDEBUG -o CMakeFiles/cmTC_99f7b.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_99f7b
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99f7b.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_99f7b.dir/CheckSymbolExists.c.o -o cmTC_99f7b  -lm -lpthread 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_getname_np
+  return ((int*)(&pthread_getname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_setname_np exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_27544/fast && /usr/bin/make  -f CMakeFiles/cmTC_27544.dir/build.make CMakeFiles/cmTC_27544.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_27544.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -O3 -DNDEBUG -o CMakeFiles/cmTC_27544.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_27544
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27544.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_27544.dir/CheckSymbolExists.c.o -o cmTC_27544  -lm -lpthread 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_setname_np
+  return ((int*)(&pthread_setname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dlopen exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a97ed/fast && /usr/bin/make  -f CMakeFiles/cmTC_a97ed.dir/build.make CMakeFiles/cmTC_a97ed.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a97ed.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -O3 -DNDEBUG -o CMakeFiles/cmTC_a97ed.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a97ed
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a97ed.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_a97ed.dir/CheckSymbolExists.c.o -o cmTC_a97ed  -lm -ldl 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dladdr exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_09ebc/fast && /usr/bin/make  -f CMakeFiles/cmTC_09ebc.dir/build.make CMakeFiles/cmTC_09ebc.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09ebc.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -O3 -DNDEBUG -o CMakeFiles/cmTC_09ebc.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_09ebc
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09ebc.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_09ebc.dir/CheckSymbolExists.c.o -o cmTC_09ebc  -lm -ldl 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dladdr
+  return ((int*)(&dladdr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS_WITHOUT_LIB succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_13d9d/fast && /usr/bin/make  -f CMakeFiles/cmTC_13d9d.dir/build.make CMakeFiles/cmTC_13d9d.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_13d9d.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_ATOMICS_WITHOUT_LIB -D_GNU_SOURCE  -std=c++11 -O3 -DNDEBUG -std=c++17 -o CMakeFiles/cmTC_13d9d.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_13d9d
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13d9d.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 -O3 -DNDEBUG CMakeFiles/cmTC_13d9d.dir/src.cxx.o -o cmTC_13d9d  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> x;
+std::atomic<short> y;
+std::atomic<char> z;
+int main() {
+  ++z;
+  ++y;
+  return ++x;
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS64_WITHOUT_LIB succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_35d99/fast && /usr/bin/make  -f CMakeFiles/cmTC_35d99.dir/build.make CMakeFiles/cmTC_35d99.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35d99.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_ATOMICS64_WITHOUT_LIB -D_GNU_SOURCE  -std=c++11 -O3 -DNDEBUG -std=c++17 -o CMakeFiles/cmTC_35d99.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_35d99
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35d99.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++11 -O3 -DNDEBUG CMakeFiles/cmTC_35d99.dir/src.cxx.o -o cmTC_35d99  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <atomic>
+#include <cstdint>
+std::atomic<uint64_t> x (0);
+int main() {
+  uint64_t i = x.load(std::memory_order_relaxed);
+  (void)i;
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b536c/fast && /usr/bin/make  -f CMakeFiles/cmTC_b536c.dir/build.make CMakeFiles/cmTC_b536c.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b536c.dir/src.cxx.o
+/usr/bin/c++ -DLLVM_HAS_ATOMICS -D_GNU_SOURCE  -O3 -DNDEBUG -std=c++17 -o CMakeFiles/cmTC_b536c.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b536c
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b536c.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_b536c.dir/src.cxx.o -o cmTC_b536c  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_MACROS_FLAG succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_7d99d/fast && /usr/bin/make  -f CMakeFiles/cmTC_7d99d.dir/build.make CMakeFiles/cmTC_7d99d.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7d99d.dir/src.cxx.o
+/usr/bin/c++ -DSUPPORTS_VARIADIC_MACROS_FLAG  -O3 -DNDEBUG   -Wvariadic-macros -std=c++17 -o CMakeFiles/cmTC_7d99d.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7d99d
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d99d.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_7d99d.dir/src.cxx.o -o cmTC_7d99d  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_UNINITIALIZED succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_51d09/fast && /usr/bin/make  -f CMakeFiles/cmTC_51d09.dir/build.make CMakeFiles/cmTC_51d09.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_51d09.dir/src.cxx.o
+/usr/bin/c++ -DHAS_UNINITIALIZED  -O3 -DNDEBUG   -Wuninitialized -std=c++17 -o CMakeFiles/cmTC_51d09.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_51d09
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51d09.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_51d09.dir/src.cxx.o -o cmTC_51d09  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f814c/fast && /usr/bin/make  -f CMakeFiles/cmTC_f814c.dir/build.make CMakeFiles/cmTC_f814c.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f814c.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_FPIC  -O3 -DNDEBUG   -Werror -fPIC -o CMakeFiles/cmTC_f814c.dir/src.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f814c
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f814c.dir/link.txt --verbose=1
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/cmTC_f814c.dir/src.c.o -o cmTC_f814c  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_1d0e4/fast && /usr/bin/make  -f CMakeFiles/cmTC_1d0e4.dir/build.make CMakeFiles/cmTC_1d0e4.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1d0e4.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_FPIC  -O3 -DNDEBUG   -Werror -fPIC -std=c++17 -o CMakeFiles/cmTC_1d0e4.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_1d0e4
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d0e4.dir/link.txt --verbose=1
+/usr/bin/c++ -O3 -DNDEBUG CMakeFiles/cmTC_1d0e4.dir/src.cxx.o -o cmTC_1d0e4  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FNO_SEMANTIC_INTERPOSITION succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9b78a/fast && /usr/bin/make  -f CMakeFiles/cmTC_9b78a.dir/build.make CMakeFiles/cmTC_9b78a.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b78a.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_FNO_SEMANTIC_INTERPOSITION  -fPIC  -O3 -DNDEBUG   -Werror -fno-semantic-interposition -o CMakeFiles/cmTC_9b78a.dir/src.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9b78a
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b78a.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC  -O3 -DNDEBUG CMakeFiles/cmTC_9b78a.dir/src.c.o -o cmTC_9b78a  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FNO_SEMANTIC_INTERPOSITION succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_9eac1/fast && /usr/bin/make  -f CMakeFiles/cmTC_9eac1.dir/build.make CMakeFiles/cmTC_9eac1.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9eac1.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_FNO_SEMANTIC_INTERPOSITION  -fPIC  -O3 -DNDEBUG   -Werror -fno-semantic-interposition -std=c++17 -o CMakeFiles/cmTC_9eac1.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9eac1
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9eac1.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC  -O3 -DNDEBUG CMakeFiles/cmTC_9eac1.dir/src.cxx.o -o cmTC_9eac1  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6bfb8/fast && /usr/bin/make  -f CMakeFiles/cmTC_6bfb8.dir/build.make CMakeFiles/cmTC_6bfb8.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6bfb8.dir/src.cxx.o
+/usr/bin/c++ -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG  -fPIC -fno-semantic-interposition  -O3 -DNDEBUG   -fvisibility-inlines-hidden -std=c++17 -o CMakeFiles/cmTC_6bfb8.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6bfb8
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bfb8.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition  -O3 -DNDEBUG CMakeFiles/cmTC_6bfb8.dir/src.cxx.o -o cmTC_6bfb8  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_262f3/fast && /usr/bin/make  -f CMakeFiles/cmTC_262f3.dir/build.make CMakeFiles/cmTC_262f3.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_262f3.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_WERROR_DATE_TIME  -fPIC -fno-semantic-interposition  -O3 -DNDEBUG   -Werror -Werror=date-time -o CMakeFiles/cmTC_262f3.dir/src.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_262f3
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_262f3.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition  -O3 -DNDEBUG CMakeFiles/cmTC_262f3.dir/src.c.o -o cmTC_262f3  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b33b8/fast && /usr/bin/make  -f CMakeFiles/cmTC_b33b8.dir/build.make CMakeFiles/cmTC_b33b8.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b33b8.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_WERROR_DATE_TIME  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden  -O3 -DNDEBUG   -Werror -Werror=date-time -std=c++17 -o CMakeFiles/cmTC_b33b8.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_b33b8
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b33b8.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden  -O3 -DNDEBUG CMakeFiles/cmTC_b33b8.dir/src.cxx.o -o cmTC_b33b8  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_CMAKE_CXX_FLAGS succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2b5ac/fast && /usr/bin/make  -f CMakeFiles/cmTC_2b5ac.dir/build.make CMakeFiles/cmTC_2b5ac.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b5ac.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_CMAKE_CXX_FLAGS  -fPIC -fno-semantic-interposition -Werror=date-time  -O3 -DNDEBUG   -Werror -fno-lifetime-dse -o CMakeFiles/cmTC_2b5ac.dir/src.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2b5ac
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b5ac.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Werror=date-time  -O3 -DNDEBUG CMakeFiles/cmTC_2b5ac.dir/src.c.o -o cmTC_2b5ac  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CMAKE_CXX_FLAGS succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_cc551/fast && /usr/bin/make  -f CMakeFiles/cmTC_cc551.dir/build.make CMakeFiles/cmTC_cc551.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cc551.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_CMAKE_CXX_FLAGS  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time  -O3 -DNDEBUG   -Werror -fno-lifetime-dse -std=c++17 -o CMakeFiles/cmTC_cc551.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cc551
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc551.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time  -O3 -DNDEBUG CMakeFiles/cmTC_cc551.dir/src.cxx.o -o cmTC_cc551  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_04743/fast && /usr/bin/make  -f CMakeFiles/cmTC_04743.dir/build.make CMakeFiles/cmTC_04743.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_04743.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual  -O3 -DNDEBUG   -Wmissing-field-initializers -std=c++17 -o CMakeFiles/cmTC_04743.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_04743
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04743.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual  -O3 -DNDEBUG CMakeFiles/cmTC_04743.dir/src.cxx.o -o cmTC_04743  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f6887/fast && /usr/bin/make  -f CMakeFiles/cmTC_f6887.dir/build.make CMakeFiles/cmTC_f6887.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6887.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long  -O3 -DNDEBUG   -Werror -Wimplicit-fallthrough -o CMakeFiles/cmTC_f6887.dir/src.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f6887
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6887.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long  -O3 -DNDEBUG CMakeFiles/cmTC_f6887.dir/src.c.o -o cmTC_f6887  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_47a92/fast && /usr/bin/make  -f CMakeFiles/cmTC_47a92.dir/build.make CMakeFiles/cmTC_47a92.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_47a92.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long  -O3 -DNDEBUG   -Werror -Wimplicit-fallthrough -std=c++17 -o CMakeFiles/cmTC_47a92.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_47a92
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47a92.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long  -O3 -DNDEBUG CMakeFiles/cmTC_47a92.dir/src.cxx.o -o cmTC_47a92  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CLASS_MEMACCESS_FLAG succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_30948/fast && /usr/bin/make  -f CMakeFiles/cmTC_30948.dir/build.make CMakeFiles/cmTC_30948.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_30948.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_CLASS_MEMACCESS_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull  -O3 -DNDEBUG   -Wclass-memaccess -std=c++17 -o CMakeFiles/cmTC_30948.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_30948
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30948.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull  -O3 -DNDEBUG CMakeFiles/cmTC_30948.dir/src.cxx.o -o cmTC_30948  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_REDUNDANT_MOVE_FLAG succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_4fb11/fast && /usr/bin/make  -f CMakeFiles/cmTC_4fb11.dir/build.make CMakeFiles/cmTC_4fb11.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4fb11.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_REDUNDANT_MOVE_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess  -O3 -DNDEBUG   -Wredundant-move -std=c++17 -o CMakeFiles/cmTC_4fb11.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4fb11
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fb11.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess  -O3 -DNDEBUG CMakeFiles/cmTC_4fb11.dir/src.cxx.o -o cmTC_4fb11  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_PESSIMIZING_MOVE_FLAG succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e102f/fast && /usr/bin/make  -f CMakeFiles/cmTC_e102f.dir/build.make CMakeFiles/cmTC_e102f.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e102f.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_PESSIMIZING_MOVE_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move  -O3 -DNDEBUG   -Wpessimizing-move -std=c++17 -o CMakeFiles/cmTC_e102f.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e102f
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e102f.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move  -O3 -DNDEBUG CMakeFiles/cmTC_e102f.dir/src.cxx.o -o cmTC_e102f  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NOEXCEPT_TYPE_FLAG succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_de1df/fast && /usr/bin/make  -f CMakeFiles/cmTC_de1df.dir/build.make CMakeFiles/cmTC_de1df.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_de1df.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_NOEXCEPT_TYPE_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move  -O3 -DNDEBUG   -Wnoexcept-type -std=c++17 -o CMakeFiles/cmTC_de1df.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_de1df
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de1df.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move  -O3 -DNDEBUG CMakeFiles/cmTC_de1df.dir/src.cxx.o -o cmTC_de1df  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_SUGGEST_OVERRIDE_FLAG succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_815bf/fast && /usr/bin/make  -f CMakeFiles/cmTC_815bf.dir/build.make CMakeFiles/cmTC_815bf.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_815bf.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_SUGGEST_OVERRIDE_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor  -O3 -DNDEBUG   -Wsuggest-override -std=c++17 -o CMakeFiles/cmTC_815bf.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_815bf
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_815bf.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor  -O3 -DNDEBUG CMakeFiles/cmTC_815bf.dir/src.cxx.o -o cmTC_815bf  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_WSUGGEST_OVERRIDE_ALLOWS_ONLY_FINAL succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_33dfe/fast && /usr/bin/make  -f CMakeFiles/cmTC_33dfe.dir/build.make CMakeFiles/cmTC_33dfe.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_33dfe.dir/src.cxx.o
+/usr/bin/c++ -DCXX_WSUGGEST_OVERRIDE_ALLOWS_ONLY_FINAL -D_GNU_SOURCE  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor  -Werror=suggest-override -O3 -DNDEBUG -std=c++17 -o CMakeFiles/cmTC_33dfe.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_33dfe
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33dfe.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor  -Werror=suggest-override -O3 -DNDEBUG CMakeFiles/cmTC_33dfe.dir/src.cxx.o -o cmTC_33dfe  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+class base {public: virtual void anchor();};
+                               class derived : base {public: void anchor() final;};
+                               int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISLEADING_INDENTATION_FLAG succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3d326/fast && /usr/bin/make  -f CMakeFiles/cmTC_3d326.dir/build.make CMakeFiles/cmTC_3d326.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3d326.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_MISLEADING_INDENTATION_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment  -O3 -DNDEBUG   -Wmisleading-indentation -std=c++17 -o CMakeFiles/cmTC_3d326.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3d326
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d326.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment  -O3 -DNDEBUG CMakeFiles/cmTC_3d326.dir/src.cxx.o -o cmTC_3d326  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FNO_FUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_11e2c/fast && /usr/bin/make  -f CMakeFiles/cmTC_11e2c.dir/build.make CMakeFiles/cmTC_11e2c.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_11e2c.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_FNO_FUNCTION_SECTIONS  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment  -O3 -DNDEBUG   -Werror -fno-function-sections -o CMakeFiles/cmTC_11e2c.dir/src.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_11e2c
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11e2c.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment  -O3 -DNDEBUG CMakeFiles/cmTC_11e2c.dir/src.c.o -o cmTC_11e2c  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FFUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_b3ba1/fast && /usr/bin/make  -f CMakeFiles/cmTC_b3ba1.dir/build.make CMakeFiles/cmTC_b3ba1.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3ba1.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_FFUNCTION_SECTIONS  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment  -O3 -DNDEBUG   -Werror -ffunction-sections -o CMakeFiles/cmTC_b3ba1.dir/src.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b3ba1
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3ba1.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment  -O3 -DNDEBUG CMakeFiles/cmTC_b3ba1.dir/src.c.o -o cmTC_b3ba1  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FFUNCTION_SECTIONS succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d6d0d/fast && /usr/bin/make  -f CMakeFiles/cmTC_d6d0d.dir/build.make CMakeFiles/cmTC_d6d0d.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6d0d.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_FFUNCTION_SECTIONS  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation  -O3 -DNDEBUG   -Werror -ffunction-sections -std=c++17 -o CMakeFiles/cmTC_d6d0d.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_d6d0d
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6d0d.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation  -O3 -DNDEBUG CMakeFiles/cmTC_d6d0d.dir/src.cxx.o -o cmTC_d6d0d  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FDATA_SECTIONS succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_f983d/fast && /usr/bin/make  -f CMakeFiles/cmTC_f983d.dir/build.make CMakeFiles/cmTC_f983d.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f983d.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_FDATA_SECTIONS  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections  -O3 -DNDEBUG   -Werror -fdata-sections -o CMakeFiles/cmTC_f983d.dir/src.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f983d
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f983d.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections  -O3 -DNDEBUG CMakeFiles/cmTC_f983d.dir/src.c.o -o cmTC_f983d  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FDATA_SECTIONS succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_65a28/fast && /usr/bin/make  -f CMakeFiles/cmTC_65a28.dir/build.make CMakeFiles/cmTC_65a28.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_65a28.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_FDATA_SECTIONS  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections  -O3 -DNDEBUG   -Werror -fdata-sections -std=c++17 -o CMakeFiles/cmTC_65a28.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_65a28
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65a28.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections  -O3 -DNDEBUG CMakeFiles/cmTC_65a28.dir/src.cxx.o -o cmTC_65a28  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Determining if the __x86_64__ exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3d9d2/fast && /usr/bin/make  -f CMakeFiles/cmTC_3d9d2.dir/build.make CMakeFiles/cmTC_3d9d2.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d9d2.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIC -fno-semantic-interposition -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -fdata-sections  -O3 -DNDEBUG -o CMakeFiles/cmTC_3d9d2.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3d9d2
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d9d2.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -fdata-sections  -O3 -DNDEBUG CMakeFiles/cmTC_3d9d2.dir/CheckSymbolExists.c.o -o cmTC_3d9d2  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __x86_64__
+  return ((int*)(&__x86_64__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3f36e/fast && /usr/bin/make  -f CMakeFiles/cmTC_3f36e.dir/build.make CMakeFiles/cmTC_3f36e.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3f36e.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -fdata-sections  -O3 -DNDEBUG -o CMakeFiles/cmTC_3f36e.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3f36e
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f36e.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -fdata-sections  -O3 -DNDEBUG CMakeFiles/cmTC_3f36e.dir/CheckIncludeFile.c.o -o cmTC_3f36e  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_255ee/fast && /usr/bin/make  -f CMakeFiles/cmTC_255ee.dir/build.make CMakeFiles/cmTC_255ee.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_255ee.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -fdata-sections  -O3 -DNDEBUG -o CMakeFiles/cmTC_255ee.dir/CheckIncludeFile.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_255ee
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_255ee.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -fdata-sections  -O3 -DNDEBUG CMakeFiles/cmTC_255ee.dir/CheckIncludeFile.c.o -o cmTC_255ee  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the dladdr exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_d0be4/fast && /usr/bin/make  -f CMakeFiles/cmTC_d0be4.dir/build.make CMakeFiles/cmTC_d0be4.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0be4.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIC -fno-semantic-interposition -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -fdata-sections  -O3 -DNDEBUG -o CMakeFiles/cmTC_d0be4.dir/CheckSymbolExists.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:11: warning: ISO C forbids conversion of function pointer to object pointer type [-Wpedantic]
+    8 |   return ((int*)(&dladdr))[argc];
+      |           ^
+Linking C executable cmTC_d0be4
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0be4.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -fdata-sections  -O3 -DNDEBUG CMakeFiles/cmTC_d0be4.dir/CheckSymbolExists.c.o -o cmTC_d0be4  -lm -ldl 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+File /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dladdr
+  return ((int*)(&dladdr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if files sys/inotify.h exist passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3745c/fast && /usr/bin/make  -f CMakeFiles/cmTC_3745c.dir/build.make CMakeFiles/cmTC_3745c.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3745c.dir/HAVE_INOTIFY.c.o
+/usr/bin/cc   -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -fdata-sections  -O3 -DNDEBUG -o CMakeFiles/cmTC_3745c.dir/HAVE_INOTIFY.c.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CheckIncludeFiles/HAVE_INOTIFY.c
+Linking C executable cmTC_3745c
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3745c.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -fdata-sections  -O3 -DNDEBUG CMakeFiles/cmTC_3745c.dir/HAVE_INOTIFY.c.o -o cmTC_3745c  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function shm_open exists in the rt passed with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_66ac6/fast && /usr/bin/make  -f CMakeFiles/cmTC_66ac6.dir/build.make CMakeFiles/cmTC_66ac6.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_66ac6.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -fdata-sections -DCHECK_FUNCTION_EXISTS=shm_open -O3 -DNDEBUG -o CMakeFiles/cmTC_66ac6.dir/CheckFunctionExists.c.o -c /opt/cmake/share/cmake-3.23/Modules/CheckFunctionExists.c
+Linking C executable cmTC_66ac6
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66ac6.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -ffunction-sections -fdata-sections -DCHECK_FUNCTION_EXISTS=shm_open -O3 -DNDEBUG CMakeFiles/cmTC_66ac6.dir/CheckFunctionExists.c.o -o cmTC_66ac6  -lrt -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_31592/fast && /usr/bin/make  -f CMakeFiles/cmTC_31592.dir/build.make CMakeFiles/cmTC_31592.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_31592.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall -O3 -DNDEBUG   -Wall -std=c++11 -o CMakeFiles/cmTC_31592.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_31592
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31592.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall -O3 -DNDEBUG CMakeFiles/cmTC_31592.dir/src.cxx.o -o cmTC_31592  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_ff6a5/fast && /usr/bin/make  -f CMakeFiles/cmTC_ff6a5.dir/build.make CMakeFiles/cmTC_ff6a5.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ff6a5.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra -O3 -DNDEBUG   -Wextra -std=c++11 -o CMakeFiles/cmTC_ff6a5.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ff6a5
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff6a5.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra -O3 -DNDEBUG CMakeFiles/cmTC_ff6a5.dir/src.cxx.o -o cmTC_ff6a5  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5e6eb/fast && /usr/bin/make  -f CMakeFiles/cmTC_5e6eb.dir/build.make CMakeFiles/cmTC_5e6eb.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e6eb.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow -O3 -DNDEBUG   -Wshadow -std=c++11 -o CMakeFiles/cmTC_5e6eb.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5e6eb
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e6eb.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow -O3 -DNDEBUG CMakeFiles/cmTC_5e6eb.dir/src.cxx.o -o cmTC_5e6eb  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WFLOAT_EQUAL succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_e3147/fast && /usr/bin/make  -f CMakeFiles/cmTC_e3147.dir/build.make CMakeFiles/cmTC_e3147.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e3147.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WFLOAT_EQUAL  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal -O3 -DNDEBUG   -Wfloat-equal -std=c++11 -o CMakeFiles/cmTC_e3147.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e3147
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3147.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal -O3 -DNDEBUG CMakeFiles/cmTC_e3147.dir/src.cxx.o -o cmTC_e3147  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WOLD_STYLE_CAST succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_0780f/fast && /usr/bin/make  -f CMakeFiles/cmTC_0780f.dir/build.make CMakeFiles/cmTC_0780f.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0780f.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WOLD_STYLE_CAST  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -O3 -DNDEBUG   -Wold-style-cast -std=c++11 -o CMakeFiles/cmTC_0780f.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0780f
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0780f.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast -O3 -DNDEBUG CMakeFiles/cmTC_0780f.dir/src.cxx.o -o cmTC_0780f  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_11964/fast && /usr/bin/make  -f CMakeFiles/cmTC_11964.dir/build.make CMakeFiles/cmTC_11964.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_11964.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wsuggest-override -O3 -DNDEBUG   -Wsuggest-override -std=c++11 -o CMakeFiles/cmTC_11964.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_11964
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11964.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wsuggest-override -O3 -DNDEBUG CMakeFiles/cmTC_11964.dir/src.cxx.o -o cmTC_11964  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_06b9c/fast && /usr/bin/make  -f CMakeFiles/cmTC_06b9c.dir/build.make CMakeFiles/cmTC_06b9c.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_06b9c.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wsuggest-override  -pedantic -O3 -DNDEBUG   -pedantic -std=c++11 -o CMakeFiles/cmTC_06b9c.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_06b9c
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06b9c.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wsuggest-override  -pedantic -O3 -DNDEBUG CMakeFiles/cmTC_06b9c.dir/src.cxx.o -o cmTC_06b9c  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_489c0/fast && /usr/bin/make  -f CMakeFiles/cmTC_489c0.dir/build.make CMakeFiles/cmTC_489c0.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_489c0.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wsuggest-override  -pedantic  -pedantic-errors -O3 -DNDEBUG   -pedantic-errors -std=c++11 -o CMakeFiles/cmTC_489c0.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_489c0
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_489c0.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wsuggest-override  -pedantic  -pedantic-errors -O3 -DNDEBUG CMakeFiles/cmTC_489c0.dir/src.cxx.o -o cmTC_489c0  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_60099/fast && /usr/bin/make  -f CMakeFiles/cmTC_60099.dir/build.make CMakeFiles/cmTC_60099.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_60099.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -O3 -DNDEBUG   -fstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_60099.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_60099
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60099.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing -O3 -DNDEBUG CMakeFiles/cmTC_60099.dir/src.cxx.o -o cmTC_60099  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5eafe/fast && /usr/bin/make  -f CMakeFiles/cmTC_5eafe.dir/build.make CMakeFiles/cmTC_5eafe.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5eafe.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -O3 -DNDEBUG   -Wno-deprecated-declarations -std=c++11 -o CMakeFiles/cmTC_5eafe.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5eafe
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5eafe.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations -O3 -DNDEBUG CMakeFiles/cmTC_5eafe.dir/src.cxx.o -o cmTC_5eafe  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FNO_EXCEPTIONS succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3398a/fast && /usr/bin/make  -f CMakeFiles/cmTC_3398a.dir/build.make CMakeFiles/cmTC_3398a.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3398a.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions -O3 -DNDEBUG   -fno-exceptions -std=c++11 -o CMakeFiles/cmTC_3398a.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_3398a
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3398a.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions -O3 -DNDEBUG CMakeFiles/cmTC_3398a.dir/src.cxx.o -o cmTC_3398a  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_5fa92/fast && /usr/bin/make  -f CMakeFiles/cmTC_5fa92.dir/build.make CMakeFiles/cmTC_5fa92.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5fa92.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG   -Wstrict-aliasing -std=c++11 -o CMakeFiles/cmTC_5fa92.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5fa92
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fa92.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing -O3 -DNDEBUG CMakeFiles/cmTC_5fa92.dir/src.cxx.o -o cmTC_5fa92  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_6fd85/fast && /usr/bin/make  -f CMakeFiles/cmTC_6fd85.dir/build.make CMakeFiles/cmTC_6fd85.dir/build
+make[1]: Entering directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6fd85.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing  --coverage -O3 -DNDEBUG   --coverage -std=c++11 -o CMakeFiles/cmTC_6fd85.dir/src.cxx.o -c /home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_6fd85
+/opt/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fd85.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -fno-lifetime-dse -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-uninitialized -Wno-nonnull -Wno-class-memaccess -Wno-redundant-move -Wno-pessimizing-move -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wsuggest-override -Wno-comment -Wno-misleading-indentation -ffunction-sections -fdata-sections  -Wall  -Wextra  -Wshadow  -Wfloat-equal  -Wold-style-cast  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing  --coverage -O3 -DNDEBUG CMakeFiles/cmTC_6fd85.dir/src.cxx.o -o cmTC_6fd85  -lm 
+make[1]: Leaving directory '/home/jonathan/dev/llvm-project/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
